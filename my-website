@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="sun.css">
+</head>
+
+<body>
+
+  <div class="body1">
+    <h1>Contact Us</h1>
+
+    <a href="sunday.html">Home</a>
+    <a href="sunny/sunny.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <p>Get in Touch</p>
+
+  <form action="https://formspree.io/f/xyzoknlg" method="post">
+
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Name">
+    <br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Email">
+    <br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" placeholder="Message"></textarea>
+    <br><br>
+
+    <button type="submit">Send</button>
+
+  </form>
+
+  <p id="train">
+    &copy; 2025 Temmy Training Hub. All rights reserved.
+  </p>
+
+</body>
+</html>
